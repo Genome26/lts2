@@ -41,7 +41,7 @@ check_ip_and_get_info() {
 # =============================================
 
 # Ambil data dari GitHub dengan timeout
-permission_file=$(curl -s --connect-timeout 10 https://raw.githubusercontent.com/Genome26/reg/main/ip)
+permission_file=$(curl -s --connect-timeout 10 https://raw.githubusercontent.com/Genome26/lts2/main/reg/ip)
 
 # Validasi file permission
 if [ -z "$permission_file" ]; then
