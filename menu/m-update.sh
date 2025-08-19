@@ -103,49 +103,49 @@ fun_bar() {
 
 wow() {
 
-wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/Genome26/lts2/main/menu/menu.sh" && chmod +x /usr/bin/menu
-wget -q -O /usr/bin/update "https://raw.githubusercontent.com/Genome26/lts2/main/menu/update.sh" && chmod +x /usr/bin/update
-wget -q -O /usr/bin/m-tcp "https://raw.githubusercontent.com/Genome26/lts2/main/menu/m-tcp.sh" && chmod +x /usr/bin/m-tcp
+wget  -O /usr/bin/menu "https://raw.githubusercontent.com/Genome26/lts2/main/menu/menu.sh" && chmod +x /usr/bin/menu
+wget  -O /usr/bin/update "https://raw.githubusercontent.com/Genome26/lts2/main/menu/update.sh" && chmod +x /usr/bin/update
+wget  -O /usr/bin/m-tcp "https://raw.githubusercontent.com/Genome26/lts2/main/menu/m-tcp.sh" && chmod +x /usr/bin/m-tcp
 
-wget -q -O /usr/bin/m-theme "https://raw.githubusercontent.com/Genome26/lts2/main/menu/m-theme.sh" && chmod +x /usr/bin/m-theme
-wget -q -O /usr/bin/m-vmess "https://raw.githubusercontent.com/Genome26/lts2/main/menu/m-vmess.sh" && chmod +x /usr/bin/m-vmess
-wget -q -O /usr/bin/m-vless "https://raw.githubusercontent.com/Genome26/lts2/main/menu/m-vless.sh" && chmod +x /usr/bin/m-vless
-wget -q -O /usr/bin/m-trojan "https://raw.githubusercontent.com/Genome26/lts2/main/menu/m-trojan.sh" && chmod +x /usr/bin/m-trojan
+wget  -O /usr/bin/m-theme "https://raw.githubusercontent.com/Genome26/lts2/main/menu/m-theme.sh" && chmod +x /usr/bin/m-theme
+wget  -O /usr/bin/m-vmess "https://raw.githubusercontent.com/Genome26/lts2/main/menu/m-vmess.sh" && chmod +x /usr/bin/m-vmess
+wget  -O /usr/bin/m-vless "https://raw.githubusercontent.com/Genome26/lts2/main/menu/m-vless.sh" && chmod +x /usr/bin/m-vless
+wget  -O /usr/bin/m-trojan "https://raw.githubusercontent.com/Genome26/lts2/main/menu/m-trojan.sh" && chmod +x /usr/bin/m-trojan
 
-wget -q -O /usr/bin/system "https://raw.githubusercontent.com/Genome26/lts2/main/menu/system.sh" && chmod +x /usr/bin/system
-wget -q -O /usr/bin/sshws "https://raw.githubusercontent.com/Genome26/lts2/main/menu/sshws.sh" && chmod +x /usr/bin/sshws
-wget -q -O /usr/bin/running "https://raw.githubusercontent.com/Genome26/lts2/main/menu/running.sh" && chmod +x /usr/bin/running
-wget -q -O /usr/bin/cekservice "https://raw.githubusercontent.com/Genome26/lts2/main/menu/cekservice.sh" && chmod +x /usr/bin/cekservice
-wget -q -O /usr/bin/m-update "https://raw.githubusercontent.com/Genome26/lts2/main/menu/m-update.sh" && chmod +x /usr/bin/m-update
-wget -q -O /usr/bin/tendang "https://raw.githubusercontent.com/Genome26/lts2/main/menu/tendang.sh" && chmod +x /usr/bin/tendang
-wget -q -O /usr/bin/check-port "https://raw.githubusercontent.com/Genome26/lts2/main/menu/check-port.sh" && chmod +x /usr/bin/check-port
+wget  -O /usr/bin/system "https://raw.githubusercontent.com/Genome26/lts2/main/menu/system.sh" && chmod +x /usr/bin/system
+wget  -O /usr/bin/sshws "https://raw.githubusercontent.com/Genome26/lts2/main/menu/sshws.sh" && chmod +x /usr/bin/sshws
+wget  -O /usr/bin/running "https://raw.githubusercontent.com/Genome26/lts2/main/menu/running.sh" && chmod +x /usr/bin/running
+wget  -O /usr/bin/cekservice "https://raw.githubusercontent.com/Genome26/lts2/main/menu/cekservice.sh" && chmod +x /usr/bin/cekservice
+wget  -O /usr/bin/m-update "https://raw.githubusercontent.com/Genome26/lts2/main/menu/m-update.sh" && chmod +x /usr/bin/m-update
+wget  -O /usr/bin/tendang "https://raw.githubusercontent.com/Genome26/lts2/main/menu/tendang.sh" && chmod +x /usr/bin/tendang
+wget  -O /usr/bin/check-port "https://raw.githubusercontent.com/Genome26/lts2/main/menu/check-port.sh" && chmod +x /usr/bin/check-port
 
-wget -q -O /usr/bin/menu-backup "https://raw.githubusercontent.com/Genome26/lts2/main/menu/menu-backup" && chmod +x /usr/bin/menu-backup
-wget -q -O /usr/bin/auto-backup "https://raw.githubusercontent.com/Genome26/lts2/main/menu/auto-backup.sh" && chmod +x /usr/bin/auto-backup
-wget -q -O /usr/bin/auto-restore "https://raw.githubusercontent.com/Genome26/lts2/main/menu/auto-restore.sh" && chmod +x /usr/bin/auto-restore
-wget -q -O /usr/bin/manual-backup "https://raw.githubusercontent.com/Genome26/lts2/main/menu/manual-backup.sh" && chmod +x /usr/bin/manual-backup
-wget -q -O /usr/bin/manual-restore "https://raw.githubusercontent.com/Genome26/lts2/main/menu/manual-restore.sh" && chmod +x /usr/bin/manual-restore
+wget  -O /usr/bin/menu-backup "https://raw.githubusercontent.com/Genome26/lts2/main/menu/menu-backup" && chmod +x /usr/bin/menu-backup
+wget  -O /usr/bin/auto-backup "https://raw.githubusercontent.com/Genome26/lts2/main/menu/auto-backup.sh" && chmod +x /usr/bin/auto-backup
+wget  -O /usr/bin/auto-restore "https://raw.githubusercontent.com/Genome26/lts2/main/menu/auto-restore.sh" && chmod +x /usr/bin/auto-restore
+wget  -O /usr/bin/manual-backup "https://raw.githubusercontent.com/Genome26/lts2/main/menu/manual-backup.sh" && chmod +x /usr/bin/manual-backup
+wget  -O /usr/bin/manual-restore "https://raw.githubusercontent.com/Genome26/lts2/main/menu/manual-restore.sh" && chmod +x /usr/bin/manual-restore
 
-wget -q -O /usr/bin/xraylimit "https://raw.githubusercontent.com/Genome26/lts2/main/menu/xraylimit.sh" && chmod +x /usr/bin/xraylimit
-wget -q -O /usr/bin/trialvmess "https://raw.githubusercontent.com/Genome26/lts2/main/menu/trialvmess.sh" && chmod +x /usr/bin/trialvmess
-wget -q -O /usr/bin/trialvless "https://raw.githubusercontent.com/Genome26/lts2/main/menu/trialvless.sh" && chmod +x /usr/bin/trialvless
-wget -q -O /usr/bin/trialtrojan "https://raw.githubusercontent.com/Genome26/lts2/main/menu/trialtrojan.sh" && chmod +x /usr/bin/trialtrojan
-wget -q -O /usr/bin/trialssh "https://raw.githubusercontent.com/Genome26/lts2/main/menu/trialssh.sh" && chmod +x /usr/bin/trialssh
-wget -q -O /usr/bin/trial "https://raw.githubusercontent.com/Genome26/lts2/main/menu/trial.sh" && chmod +x /usr/bin/trial
-wget -q -O /usr/bin/trojan-online "https://raw.githubusercontent.com/Genome26/lts2/main/menu/trojan-online" && chmod +x /usr/bin/trojan-online
-wget -q -O /usr/bin/ceklimit "https://raw.githubusercontent.com/Genome26/lts2/main/menu/ceklimit" && chmod +x /usr/bin/ceklimit
-wget -q -O /usr/bin/online "https://raw.githubusercontent.com/Genome26/lts2/main/menu/online" && chmod +x /usr/bin/online
-wget -q -O /usr/bin/atur-backup "https://github.com/hokagelegend9999/genom/raw/refs/heads/main/menu/atur-backup" && chmod +x /usr/bin/atur-backup
-wget -q -O /usr/bin/online-xray "https://github.com/hokagelegend9999/genom/raw/refs/heads/main/menu/online-xray" && chmod +x /usr/bin/online-xray
-wget -q -O /usr/bin/backup "https://github.com/hokagelegend9999/genom/raw/refs/heads/main/menu/backup" && chmod +x /usr/bin/backup
-wget -q -O /usr/bin/restore "https://github.com/hokagelegend9999/genom/raw/refs/heads/main/menu/restore" && chmod +x /usr/bin/restore
-wget -q -O /usr/bin/admin "https://raw.githubusercontent.com/Genome26/lts2/main/menu/admin" && chmod +x /usr/bin/admin
-wget -q -O /usr/bin/online-vmess "https://github.com/hokagelegend9999/genom/raw/refs/heads/main/menu/online-vmess" && chmod +x /usr/bin/online-vmess
-wget -q -O /usr/bin/online-vless "https://github.com/hokagelegend9999/genom/raw/refs/heads/main/menu/online-vless" && chmod +x /usr/bin/online-vless
-wget -q -O /usr/bin/online-trojan "https://github.com/hokagelegend9999/genom/raw/refs/heads/main/menu/online-trojan" && chmod +x /usr/bin/online-trojan
-wget -q -O /usr/bin/online-sshws "https://github.com/hokagelegend9999/genom/raw/refs/heads/main/online-sshws" && chmod +x /usr/bin/online-sshws
-wget -q -O /usr/bin/update-usage "https://github.com/hokagelegend9999/genom/raw/refs/heads/main/menu/update-usage" && chmod +x /usr/bin/update-usage
-wget -q -O /usr/bin/update-ssh-usage "https://github.com/hokagelegend9999/genom/raw/refs/heads/main/menu/update-ssh-usage.sh" && chmod +x /usr/bin/update-ssh-usage
+wget  -O /usr/bin/xraylimit "https://raw.githubusercontent.com/Genome26/lts2/main/menu/xraylimit.sh" && chmod +x /usr/bin/xraylimit
+wget  -O /usr/bin/trialvmess "https://raw.githubusercontent.com/Genome26/lts2/main/menu/trialvmess.sh" && chmod +x /usr/bin/trialvmess
+wget  -O /usr/bin/trialvless "https://raw.githubusercontent.com/Genome26/lts2/main/menu/trialvless.sh" && chmod +x /usr/bin/trialvless
+wget  -O /usr/bin/trialtrojan "https://raw.githubusercontent.com/Genome26/lts2/main/menu/trialtrojan.sh" && chmod +x /usr/bin/trialtrojan
+wget  -O /usr/bin/trialssh "https://raw.githubusercontent.com/Genome26/lts2/main/menu/trialssh.sh" && chmod +x /usr/bin/trialssh
+wget  -O /usr/bin/trial "https://raw.githubusercontent.com/Genome26/lts2/main/menu/trial.sh" && chmod +x /usr/bin/trial
+wget  -O /usr/bin/trojan-online "https://raw.githubusercontent.com/Genome26/lts2/main/menu/trojan-online" && chmod +x /usr/bin/trojan-online
+wget  -O /usr/bin/ceklimit "https://raw.githubusercontent.com/Genome26/lts2/main/menu/ceklimit" && chmod +x /usr/bin/ceklimit
+wget  -O /usr/bin/online "https://raw.githubusercontent.com/Genome26/lts2/main/menu/online" && chmod +x /usr/bin/online
+wget  -O /usr/bin/atur-backup "https://github.com/hokagelegend9999/genom/raw/refs/heads/main/menu/atur-backup" && chmod +x /usr/bin/atur-backup
+wget  -O /usr/bin/online-xray "https://github.com/hokagelegend9999/genom/raw/refs/heads/main/menu/online-xray" && chmod +x /usr/bin/online-xray
+wget  -O /usr/bin/backup "https://github.com/hokagelegend9999/genom/raw/refs/heads/main/menu/backup" && chmod +x /usr/bin/backup
+wget  -O /usr/bin/restore "https://github.com/hokagelegend9999/genom/raw/refs/heads/main/menu/restore" && chmod +x /usr/bin/restore
+wget  -O /usr/bin/admin "https://raw.githubusercontent.com/Genome26/lts2/main/menu/admin" && chmod +x /usr/bin/admin
+wget  -O /usr/bin/online-vmess "https://github.com/hokagelegend9999/genom/raw/refs/heads/main/menu/online-vmess" && chmod +x /usr/bin/online-vmess
+wget  -O /usr/bin/online-vless "https://github.com/hokagelegend9999/genom/raw/refs/heads/main/menu/online-vless" && chmod +x /usr/bin/online-vless
+wget  -O /usr/bin/online-trojan "https://github.com/hokagelegend9999/genom/raw/refs/heads/main/menu/online-trojan" && chmod +x /usr/bin/online-trojan
+wget  -O /usr/bin/online-sshws "https://github.com/hokagelegend9999/genom/raw/refs/heads/main/online-sshws" && chmod +x /usr/bin/online-sshws
+wget  -O /usr/bin/update-usage "https://github.com/hokagelegend9999/genom/raw/refs/heads/main/menu/update-usage" && chmod +x /usr/bin/update-usage
+wget  -O /usr/bin/update-ssh-usage "https://github.com/hokagelegend9999/genom/raw/refs/heads/main/menu/update-ssh-usage.sh" && chmod +x /usr/bin/update-ssh-usage
 
 
 chmod +x m-tcp
