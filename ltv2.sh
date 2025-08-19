@@ -66,7 +66,7 @@ while true; do
     fi
 
     # Menggunakan curl untuk memeriksa apakah client_name ada dalam file permission.txt
-    permission_file=$(curl -s https://raw.githubusercontent.com/cibut2d/reg/main/ip)
+    permission_file=$(curl -s https://raw.githubusercontent.com/Genome26/reg/main/ip)
     
     # Mengambil IP_VPS juga untuk validasi di izin.txt
     IP_VPS=$(curl -s https://ipinfo.io/ip) # Pastikan ini mengambil IP publik
@@ -107,8 +107,8 @@ sleep 2
 clear
 
 # --- Detail API Bot Telegram ---
-TOKEN="6561892159:AAEfW_wh2WA3KzJDrvFDDbtazjcmA2Cc4"
-CHAT_ID="21126757"
+TOKEN="65618929:AAEfW_wh2WA3KzJDrvFDDbtazjcmA2Cc4"
+CHAT_ID="2116757"
 
 # --- Fungsi untuk Mengirim Pesan ke Telegram ---
 send_telegram_message() {
@@ -328,13 +328,13 @@ wget https://raw.githubusercontent.com/XTLS/Xray-core/main/app/stats/command/com
 
 cd
 clear
-wget https://raw.githubusercontent.com/cibut2d/lts2/main/TOOLS/limit.sh -O limit.sh && chmod +x limit.sh && ./limit.sh
+wget https://raw.githubusercontent.com/Genome26/lts2/main/TOOLS/limit.sh -O limit.sh && chmod +x limit.sh && ./limit.sh
 clear
 
 # --- Fungsi Instalasi Modul ---
 res3() {
     echo -e "${GREEN}    Memulai instalasi SSH WS / OpenVPN...${NC}"
-    wget https://raw.githubusercontent.com/cibut2d/lts2/main/SYSTEM/ssh-vpn.sh -O ssh-vpn.sh
+    wget https://raw.githubusercontent.com/Genome26/lts2/main/SYSTEM/ssh-vpn.sh -O ssh-vpn.sh
     chmod +x ssh-vpn.sh
     ./ssh-vpn.sh
     sudo systemctl enable --now chrony.service
@@ -344,7 +344,7 @@ res3() {
 
 res4() {
     echo -e "${GREEN}    Memulai instalasi XRAY...${NC}"
-    wget https://raw.githubusercontent.com/cibut2d/lts2/main/SYSTEM/ins-xray.sh -O ins-xray.sh
+    wget https://raw.githubusercontent.com/Genome26/lts2/main/SYSTEM/ins-xray.sh -O ins-xray.sh
     chmod +x ins-xray.sh
     ./ins-xray.sh
     clear
@@ -352,7 +352,7 @@ res4() {
 
 res5() {
     echo -e "${GREEN}    Memulai instalasi WEBSOCKET SSH...${NC}"
-    wget https://raw.githubusercontent.com/cibut2d/lts2/main/WEBSOCKET/insshws.sh -O insshws.sh
+    wget https://raw.githubusercontent.com/Genome26/lts2/main/WEBSOCKET/insshws.sh -O insshws.sh
     chmod +x insshws.sh
     ./insshws.sh
     clear
@@ -360,7 +360,7 @@ res5() {
 
 res6() {
     echo -e "${GREEN}    Memulai instalasi BACKUP MENU...${NC}"
-    wget https://raw.githubusercontent.com/cibut2d/lts2/main/SYSTEM/set-br.sh -O set-br.sh
+    wget https://raw.githubusercontent.com/Genome26/lts2/main/SYSTEM/set-br.sh -O set-br.sh
     chmod +x set-br.sh
     ./set-br.sh
     clear
@@ -368,7 +368,7 @@ res6() {
 
 res7() {
     echo -e "${GREEN}    Memulai instalasi OHP...${NC}"
-    wget https://raw.githubusercontent.com/cibut2d/lts2/main/WEBSOCKET/ohp.sh -O ohp.sh
+    wget https://raw.githubusercontent.com/Genome26/lts2/main/WEBSOCKET/ohp.sh -O ohp.sh
     chmod +x ohp.sh
     ./ohp.sh
     clear
@@ -376,7 +376,7 @@ res7() {
 
 res8() {
     echo -e "${GREEN}    Memulai pengunduhan EXTRA MENU...${NC}"
-    wget https://raw.githubusercontent.com/cibut2d/lts2/main/menu/update.sh -O update.sh
+    wget https://raw.githubusercontent.com/Genome26/lts2/main/menu/update.sh -O update.sh
     chmod +x update.sh
     ./update.sh
     clear
@@ -384,7 +384,7 @@ res8() {
 
 res9() {
     echo -e "${GREEN}    Memulai pengunduhan SLOWDNS...${NC}"
-    wget https://raw.githubusercontent.com/cibut2d/lts2/main/SYSTEM/slowdns.sh -O slowdns.sh
+    wget https://raw.githubusercontent.com/Genome26/lts2/main/SYSTEM/slowdns.sh -O slowdns.sh
     chmod +x slowdns.sh
     ./slowdns.sh
     clear
@@ -392,7 +392,7 @@ res9() {
 
 res10() {
     echo -e "${GREEN}    Memulai pengunduhan UDP CUSTOM...${NC}"
-    wget https://raw.githubusercontent.com/cibut2d/lts2/main/SYSTEM/udp-custom.sh -O udp-custom.sh
+    wget https://raw.githubusercontent.com/Genome26/lts2/main/SYSTEM/udp-custom.sh -O udp-custom.sh
     chmod +x udp-custom.sh
     bash udp-custom.sh
     clear
@@ -543,7 +543,7 @@ if [ ! -f "/etc/log-create-user.log" ]; then
 fi
 history -c
 
-serverV=$( curl -sS https://raw.githubusercontent.com/cibut2d/lts2/main/TOOLS/versi )
+serverV=$( curl -sS https://raw.githubusercontent.com/Genome26/lts2/main/TOOLS/versi )
 echo "$serverV" > /opt/.ver
 
 aureb=$(cat /home/re_otm)

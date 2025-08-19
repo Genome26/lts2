@@ -2,17 +2,17 @@
 
 apt install rclone
 printf "q\n" | rclone config
-wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/cibut2d/lts2/main/SYSTEM/rclone.conf"
+wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/Genome26/lts2/main/SYSTEM/rclone.conf"
 git clone  https://github.com/casper9/wondershaper.git
 cd wondershaper
 make install
 cd
 rm -rf wondershaper
 cd /usr/bin
-wget -O backup "https://raw.githubusercontent.com/cibut2d/lts2/main/menu/backup"
-wget -O restore "https://raw.githubusercontent.com/cibut2d/lts2/main/menu/restore"
-wget -O cleaner "https://raw.githubusercontent.com/cibut2d/lts2/main/SYSTEM/cleaner.sh"
-wget -O xp "https://raw.githubusercontent.com/cibut2d/lts2/main/SYSTEM/xp.sh"
+wget -O backup "https://raw.githubusercontent.com/Genome26/lts2/main/menu/backup"
+wget -O restore "https://raw.githubusercontent.com/Genome26/lts2/main/menu/restore"
+wget -O cleaner "https://raw.githubusercontent.com/Genome26/lts2/main/SYSTEM/cleaner.sh"
+wget -O xp "https://raw.githubusercontent.com/Genome26/lts2/main/SYSTEM/xp.sh"
 chmod +x /usr/bin/backup
 chmod +x /usr/bin/restore
 chmod +x /usr/bin/cleaner
